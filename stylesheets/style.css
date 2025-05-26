@@ -4,16 +4,19 @@
 h1 {
   text-align: center;
   font-weight: bold;
+  font-size: 2.5rem;
 }
 
 #photo{
     width:8vw;
     height: auto;
+    text-align: center;
 }
 
 .subtitle{
     color:  rgb(151 156 165 / 0.89);
     text-transform: uppercase;
+    text-align: center;
 }
 
 footer p{
@@ -25,6 +28,8 @@ nav > ul {
   list-style: none;
   padding-left: none;
   margin: 0;
+  line-height: 2rem;
+  font-size: 15px;
 }
 
 section{
@@ -32,4 +37,21 @@ section{
     margin: 4px 2px 2px 8px;
     padding: 1.5% 0.8%;
     margin-bottom: 1.2rem;
+}
+
+#hero {
+    background-color: #727ca7;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.resumen{
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.descripcion{
+  text-align: justify;
+  font-size: 1.1rem;
 }

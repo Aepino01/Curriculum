@@ -14,30 +14,52 @@
 </head>
 <body>
     <header>
-        <h1>Currículum Vitae de Andres Pino</h1>
+        <section id="hero">
+            <table>
+                <tr>
+                    <td style="width: 200px; text-align: center;">
+                        <img id="photo" src="https://placehold.co/400x400" alt="Foto de perfil" style="border-radius: 50%; display: block; margin-bottom: 1em;">
+                    </td>
+                    <td style="text-align: left; vertical-align: middle; padding-left: 20px;">
+                        <h1>Currículum Vitae de Andres Pino</h1>
+                    </td>
+                </tr>
+            </table>
+            <p class="resumen">Bienvenido a mi espacio personal, aqui encontraras informacion personal, laboral,
+            educativa, sobre mi persona, mis habilidades y mis referencias personales.
+            Gracias por visitar este espacio, espero que encuentres la informacion que buscas.
+            </p>
+        </section>
         <nav>
-            <ul>
-                <li><a href="#perfile">Nombre</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#summary">Resumen</a></li>
-                <li><a href="#education">Educación</a></li>
-                <li><a href="#references">Referencias</a></li>
-            </ul>
-        </nav>
+                <ul>
+                    <li><a href="#perfile">Nombre</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#summary">Resumen</a></li>
+                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#references">Referencias</a></li>
+                </ul>
+        </nav>    
     </header>
     <main>
-        <p>Mucho gusto!! Me llamo Andres y este documento es un resumen de mis habilidades y fortalezas, 
-           si te encuentras aqui estas interesado en lo que tengo para ofrecer, 
-           asi que te invito a seguir leyendo</p>
+        
         <section id="perfile">
             <h2 class="subtitle"> Perfil</h2>
-            <img id="photo" src="https://placehold.co/200x200" alt="Foto de perfil" style="border-radius: 50%; display: block; margin-bottom: 1em;">
-            <p>Andres Eduardo Pino Gonzalez</p>
-            <p>Estudiante de Ingenieria en Computacion</p>
-            <p>Estudiante de la ESPOL
+            <img id="photo" src="https://placehold.co/400x400" alt="Foto de perfil" style="display: block; margin: 0 auto; border-radius: 50%;">
+            <p class="descripcion">Andres Eduardo Pino Gonzalez</p>
+            <p class="descripcion">Estudiante de Ingenieria en Computacion</p>
+            <p class="descripcion">Estudiante de la ESPOL
                 <a href="https://www.espol.edu.ec/" target="_blank">Escuela Superior Politecnica del Litoral</a></p>
             </p>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/watch?v=SIXQqe2uXxs" 
+                title="Recorrido por la ESPOL" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
             <p>Me gusta aprender y mejorar mis habilidades, 
                me gusta la programacion y el desarrollo de software, 
                me gusta trabajar en equipo y ayudar a los demas</p>
@@ -54,6 +76,23 @@
                 <li>Programacion</li>
                 <li>Trabajo bajo presion</li>
             </ol>
+            <table style="border-collapse: collapse;">
+        <tr>
+            <th></th>
+            <th>Idiomas</th>
+            <th>Nivel</th>
+        </tr>
+        <tr>
+            <th>Ingles</th>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <th>Portugues</th>
+            <td>85</td>
+            <td>98</td>
+        </tr>
+    </table>
         </section>
         <section id="summary">
             <h2 class="subtitle">Resumen</h2>
@@ -64,7 +103,7 @@
             <ul>
                 <li>Colegio Sagrada Familia</li>
                 <li>Colegio Particular Mundo America</li>
-                <li>Escuela Superior Politecnica del Litoral</li>
+                <li>Escuela Superior Politecnica del Litoral (Actual)</li>
             </ul>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3364341280774!2d-79.96705223042282!3d-2.147557464825397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13d1149cd9fd%3A0x355b20fc7f9fc1e4!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral!5e0!3m2!1ses!2sec!4v1716124824394!5m2!1ses!2sec"
@@ -76,23 +115,33 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
                 </section>
-            <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/watch?v=SIXQqe2uXxs" 
-                title="Recorrido por la ESPOL" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-            </iframe>
+    <section id="references">
+        <h2 class="subtitle">Referencias</h2>
+        <p>Referencias personales</p>
+        <ul>
+            <li>Nombre: Hector El Father</li>
+            <blockquote> Guayaco no muere y si muere, muere...</blockquote>
+            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
+                mi responsabilidad y mi compromiso con el trabajo"</p>
+            <li>Nombre: Juanito</li>
+            <blockquote>La educacion es un bloque y el compromiso el cemento</blockquote>
+            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
+                mi responsabilidad y mi compromiso con el trabajo"</p>
+            <li>Nombre: Perolito</li>
+            <blockquote> Bartolito era un pato que vivia muy feliz</blockquote>
+            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
+                mi responsabilidad y mi compromiso con el trabajo"</p>
 
-    <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1em; max-width: 400px;">
+
+
+    </main>
+<form action="#" method="post" style="display: flex; flex-direction: column; gap: 1em; max-width: 400px;">
   
         <label>
             Nombre completo:
             <input type="text" name="nombre" required>
         </label>
-
+        
         <label>
             Motivo de contacto:
             <select name="Motivo" required>
@@ -118,43 +167,6 @@
         <!-- Botón para enviar -->
         <button type="submit">Enviar</button>
     </form>
-    <table style="border-collapse: collapse;">
-        <tr>
-            <th></th>
-            <th>Idiomas</th>
-            <th>Nivel</th>
-        </tr>
-        <tr>
-            <th>Ingles</th>
-            <td>90</td>
-            <td>95</td>
-        </tr>
-        <tr>
-            <th>Portugues</th>
-            <td>85</td>
-            <td>98</td>
-        </tr>
-    </table>
-    <section id="references">
-        <h2 class="subtitle">Referencias</h2>
-        <p>Referencias personales</p>
-        <ul>
-            <li>Nombre: Hector El Father</li>
-            <blockquote> Guayaco no muere y si muere, muere...</blockquote>
-            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
-                mi responsabilidad y mi compromiso con el trabajo"</p>
-            <li>Nombre: Juanito</li>
-            <blockquote>La educacion es un bloque y el compromiso el cemento</blockquote>
-            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
-                mi responsabilidad y mi compromiso con el trabajo"</p>
-            <li>Nombre: Perolito</li>
-            <blockquote> Bartolito era un pato que vivia muy feliz</blockquote>
-            <p>Hector el Father es un cantante de la industria, "Al trabajar conmigo el aseguro mis habilidades en programacion,
-                mi responsabilidad y mi compromiso con el trabajo"</p>
-
-
-
-    </main>
     <footer>
         <p>&copy; 2025 Andres Pino</p>
     </footer>
